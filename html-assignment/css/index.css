@@ -2,3 +2,38 @@ body {
     font-size: 18px;
     font-family: Verdana;
 }
+
+header, footer {
+    background-color: greenyellow;
+}
+
+.site-title {
+    color: blueviolet;
+}
+
+#my-image {
+    box-shadow:0 0 2px 1px black ;
+}
+
+.squaretag {
+    list-style-type: square;
+}
+
+li:nth-child(odd) {
+    background: antiquewhite;
+}
+
+a {
+    text-decoration: none;
+    background: cyan;
+    border: 2px solid blueviolet;
+
+}
+
+a:hover {
+    background: orange;
+}
+a:focus {
+    background-color: red;
+    color: cyan;
+}
